@@ -18,5 +18,5 @@ def text_analyzer(text):
         "Average words per sentence": avg_words_per_sentence
     }
 
-text = "Hello world! This is a test. This test is fun."
+text = "This is the first program of 2024. Many more to come!!!"
 print(text_analyzer(text))
