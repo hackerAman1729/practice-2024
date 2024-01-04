@@ -53,5 +53,5 @@ def word_count_in_sen(sentence):
 
   return word_count
 
-print(word_count_in_sen("I think I am getting good with python. Lol. These questions are easy though."))
+print(word_count_in_sen("I think I am getting along with python. Lol. These questions are easy though."))
       
