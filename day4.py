@@ -27,6 +27,5 @@ def roman_to_integers(roman):
 
 print(roman_to_integers("IX"))
 
-# day4 ques 3
-def func(string):
+
   
