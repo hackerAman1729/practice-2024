@@ -30,5 +30,19 @@ def merge_sort(arr1, arr2):
     return merged_arr
 
 arr1 = [1, 3, 5, 7]
-arr2 = [2, 4, 6, 8]
-   
+arr2 = [1, 4, 6, 8]
+print('\n' + str(merge_sort(arr1, arr2)))
+
+# q3
+# move the first k elemts to the end of the list
+
+def rotate_list(arr, k):
+  n= len(arr)
+  k = k % n
+  arr[:] = arr[n-k-1:] + arr[:n-k-1]
+  return arr
+
+arr = [1, 2, 3, 4, 5, 6, 7]
+k = 3
+print('\n'+"Rotate list:" + str(rotate_list(arr, k)))
+
